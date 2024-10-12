@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+#main{
+  /* background-color: rgb(16, 12, 12);
+   */
+   /* background: url(pexels-triemli-28199276.jpg); */
+   /* background-size: cover; */
+  color: #fff;
+  width: 50%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  margin-top: 20px;
+  box-shadow: 10px 10px 20px black;
+
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  /* text-shadow: 3px 6px rgba(10, 10, 10, 0.5); */
+ text-align: center;
+ box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+#main h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+#select{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+#select input{
+  margin: 5px;
+  color: bisque;
+}
+
+#main button{
+  background-color: rgb(80, 80, 255);
+  border: none;
+  padding: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#main input{
+  border: none;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+body{
+  background-image: url(pexels-triemli-28199276.jpg);
+  background-size: cover;
+}
